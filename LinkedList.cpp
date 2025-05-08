@@ -9,7 +9,6 @@ int noMhs;
 Node *next;
 };
 
-
 class SingleLinkedList
 {
     Node *START;
@@ -78,7 +77,6 @@ class SingleLinkedList
 
         return (*current != NULL);
     }
-    
 
     bool delNode(int nim)
     {
