@@ -9,6 +9,7 @@ class Node
     Node *next;
 };
 
+
 class SingleLinkedList
 {
     Node *START;
