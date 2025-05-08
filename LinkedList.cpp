@@ -78,6 +78,7 @@ class SingleLinkedList
 
         return (*current != NULL);
     }
+    
 
     bool delNode(int nim)
     {
