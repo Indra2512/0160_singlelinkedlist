@@ -36,7 +36,21 @@ class list
                 return;
             }
             nodeBaru->next = START;
+            START = nodeBaru;
+            return;
+        }
+
+        Node *previous = START;
+        Node *current = START;
+
+        while ((current != NUL) && (nim >= current->noMhs))
+        {
+            if (nim == current->noMhs)
+            {
+                cout << "\nDuplikasi noMhs tidak diijinkan\n";
+                
+            }
         }
     }
 
-}
+};
